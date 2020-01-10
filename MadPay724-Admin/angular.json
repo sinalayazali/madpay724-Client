@@ -29,8 +29,8 @@
               "src/assets/fonts/font-awesome/css/font-awesome.min.css",
               "src/assets/vendors/css/prism.min.css",
               "src/assets/vendors/css/perfect-scrollbar.min.css",
-              "src/assets/vendors/css/chartist.min.css",
               "src/assets/css/app.css", 
+              "node_modules/ngx-toastr/toastr.css",
               "src/styles.css"            
             ],
             "scripts": [
@@ -45,8 +45,7 @@
               "src/assets/vendors/js/perfect-scrollbar.jquery.min.js",
               "src/assets/vendors/js/chartist.min.js",
               "src/assets/js/app-sidebar.js",
-              "src/assets/js/customizer.js",
-              "src/assets/js/dashboard-ecommerce.js"
+              "src/assets/js/customizer.js"
             ], 
             "es5BrowserSupport": true
           },
