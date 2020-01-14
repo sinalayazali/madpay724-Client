@@ -2,10 +2,8 @@
  =========================================================
  * Convex Bootstrap 4 admin dashboard template - V1.0
  =========================================================
-
  * Product Page: http://pixinvent.com/demo/convex-bootstrap-admin-dashboard-template
  * Copyright 2017 Pixinvent Creative Studio (https://www.pixinvent.com)
-
  =========================================================
 */
 (function(window, document, $) {
@@ -18,7 +16,7 @@
         $sidebar_img_container = $('.sidebar-background'),
         $wrapper = $('.wrapper');
 
-        $sidebar_content.perfectScrollbar();
+        //$sidebar_content.perfectScrollbar();
 
         if( $sidebar_img_container.length !== 0 && $sidebar_img !== undefined ){
             $sidebar_img_container.css('background-image','url("' + $sidebar_img + '")');
@@ -94,7 +92,6 @@
             });
 
             
-
             setTimeout(function() {
                 $children.addClass('is-shown');
                 $children.removeClass('is-hidden');
@@ -226,7 +223,7 @@
             $sidebar.addClass('hide-sidebar');
         });
 
-        $('.noti-list').perfectScrollbar();
+        //$('.noti-list').perfectScrollbar();
 
 
         // Page full screen
